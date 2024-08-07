@@ -1,0 +1,142 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%; /* Asegura que el html y el body ocupen toda la altura */
+    overflow: hidden;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height:5;
+    color: #333;
+    background-color: #d2c2f1
+    ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+  
+    margin: auto;
+    overflow: hidden;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 200%;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    flex-shrink: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección Sobre Mí */
+
+
+.description {
+    padding: 5rem 0;
+    background: #d2c2f1;
+    text-align: center;  
+    font-size: 1.2rem
+}
+.about-image {
+    max-width: 1000%; 
+    height: 16rem; 
+    border-radius: 9999px; 
+    margin: 0 auto; 
+  }
+
+/* Sección Proyectos */
+#projects {
+    padding: 5rem 0;
+    background: #ddfff9;
+    text-align: center;
+    flex: 1;
+    
+   
+    
+}
+
+.project {
+    background: #d2c2f1;
+    padding: 1rem;
+    margin: 1rem 0;
+ 
+
+}
+
+/* Sección Contacto */
+#contact {
+    padding: 1rem 0;
+    background: #3a3939;
+    text-align: center;
+    flex: 1;
+    color:#ffffff;
+    
+}
+
+#contact h2 {
+    margin-bottom: 0rem;
+    color:aliceblue;
+}
+
+
+
+#contact a {
+    color: #e6bef6;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    margin-top: auto; /* Empuja el footer hacia el fondo */
+    flex-shrink: 0; /* Evita que el footer se reduzca */
+}
+
